@@ -7,5 +7,5 @@ A stylesheet to add neobutalism to your webpage
 To use these styles in your project, add the following link to your html file:
 
 ```html
-<link rel="stylesheet" href="https://neobrute.vercel.app/neo.css">
+<link rel="stylesheet" href="https://neobrute.vercel.app/neo.min.css">
 ```
