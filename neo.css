@@ -5,9 +5,28 @@ body {
     background-color: #fefce8;
     font-family: "Lexend Exa", sans-serif;
     font-optical-sizing: auto;
+    padding-inline: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding-inline: 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding-inline: 15vw;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 pre {
+    font-family: 'Courier New', Courier, monospace;
     display: inline;
 }
 
@@ -57,9 +76,9 @@ hr {
 
 /* canvas */
 .canvas {
+    width: auto;
     background-color: white;
-    width: 100%;
-    padding: 2rem 0;
+    padding: 1rem;
     border: #000 3px solid;
 }
 
@@ -83,7 +102,7 @@ hr {
 .status-box {
     background-color: #f0f0f0;
     padding: 0.75rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: 1px solid #ccc;
     border-left: 4px solid #ccc;
     border-radius: 0.5rem;
@@ -91,7 +110,7 @@ hr {
 .status-box-info {
     background-color: #eef9fd;
     padding: 0.75rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: 1px solid #22d3ee;
     border-left: 4px solid #22d3ee;
     border-radius: 0.5rem;
@@ -99,7 +118,7 @@ hr {
 .status-box-success {
     background-color: #e6f6e6;
     padding: 0.75rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: 1px solid #009400;
     border-left: 4px solid #009400;
     border-radius: 0.5rem;
@@ -107,7 +126,7 @@ hr {
 .status-box-warning {
     background-color: #fff8e6;
     padding: 0.75rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: 1px solid #e6a700;
     border-left: 4px solid #e6a700;
     border-radius: 0.5rem;
@@ -115,7 +134,7 @@ hr {
 .status-box-error {
     background-color: #ffebec;
     padding: 0.75rem;
-    margin: 1rem;
+    margin: 1rem 0;
     border: 1px solid #e13238;
     border-left: 4px solid #e13238;
     border-radius: 0.5rem;
